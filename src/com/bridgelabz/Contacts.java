@@ -87,28 +87,4 @@ public class Contacts {
         return ("First name: " + firstName + "\n Last name: " + lastName + "\n Address: " + address + "\n city: " + city
                 + "\n state: " +state + "\n email: " + emailId + "\n zip: " + zip + "\n phone number:" + phoneNumber +"\n" );
     }
-}   this.emailId = emailId;
-    }
-
-    public int getZip() {
-        return zip;
-    }
-
-    public void setZip(int zip) {
-        this.zip = zip;
-    }
-
-    public long getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(long phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    @Override
-    public String toString() {
-        return ("First name: " + firstName + "\n Last name: " + lastName + "\n Address: " + address + "\n city: " + city
-                + "\n state: " +state + "\n email: " + emailId + "\n zip: " + zip + "\n phone number:" + phoneNumber +"\n" );
-    }
 }
