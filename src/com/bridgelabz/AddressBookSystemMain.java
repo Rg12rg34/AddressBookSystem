@@ -53,8 +53,14 @@ public class AddressBookSystemMain {
                     System.out.println("Welcome to the counter");
                     addressBook.countByOption();
                     break;
-                case 7:
-                    sc.close();// for closing the programme
+                case 7 : FileIO fileIO = new FileIO();
+                    fileIO.writeData(addressBookMap);
+                    break;
+                case 8 : FileIO fileIORead = new FileIO();
+                    System.out.println(fileIORead.readData());
+                    break;
+                case 9:
+                    sc.close();
                     return;
                 default:
                     System.out.println("You Entered Invalid Choice....!");
